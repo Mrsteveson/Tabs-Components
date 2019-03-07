@@ -30,7 +30,7 @@ let dropdowns = document.querySelectorAll('.dropdown').forEach( dropdown => new 
 
 
 // How this piece was originally written, but arrow syntax still confuses me a little.
-
+// -----------------------------------------------------------------------------------
 // Add a click handler to the button reference and call the toggleContent method.
 // this.button.addEventListener('click', () => this.toggleContent, {
 

@@ -52,7 +52,7 @@ body {
 
 
 // Styling practice
-
+// Disco Animation of course.
 .disco {
   .animation-strobe();
 }
@@ -61,9 +61,33 @@ body {
   animation: disco 500ms infinite;
 
   @keyframes disco {
-    0% { background: red; box-shadow: 0 0 -10px red; }
-    40% { background: blue; box-shadow: 0 0 20px blue; }
-    60% { background: purple; box-shadow: 0 0 20px purple; }
-    100% { background: aqua; box-shadow: 0 0 -10px aqua; }
+    0% { background: aqua; box-shadow: 0 0 -10px aqua; }
+    40% { background: magenta; box-shadow: 0 0 20px magenta; }
+    60% { background: blue; box-shadow: 0 0 20px blue; }
+    100% { background: red; box-shadow: 0 0 -10px red; }
+  }
+}
+
+// Attempt at individual tab stylings.
+
+.tabs {
+
+  .tabs-link{
+
+    .link[data-tab='1'] {
+      color: blue,
+    }
+    
+    .link[data-tab='2'] {
+      color: yellow;
+    }
+    
+    .link[data-tab='3'] {
+      color: magenta;
+    }
+    
+    .link[data-tab='4'] {
+      color: orange;
+    }
   }
 }
