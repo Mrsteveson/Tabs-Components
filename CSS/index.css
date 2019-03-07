@@ -145,15 +145,15 @@ body {
     box-shadow: 0 0 -10px red;
   }
 }
-.tabs .tabs-link .link[data-tab='1'] {
+.tabs .tabs-links .tabs-link[data-tab='1'] {
   color: blue;
 }
-.tabs .tabs-link .link[data-tab='2'] {
+.tabs .tabs-links .tabs-link[data-tab='2'] {
   color: yellow;
 }
-.tabs .tabs-link .link[data-tab='3'] {
+.tabs .tabs-links .tabs-link[data-tab='3'] {
   color: magenta;
 }
-.tabs .tabs-link .link[data-tab='4'] {
+.tabs .tabs-links .tabs-link[data-tab='4'] {
   color: orange;
 }
