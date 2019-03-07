@@ -157,6 +157,9 @@ body {
 .tabs .tabs-links .tabs-link[data-tab='4'] {
   color: orange;
 }
+.tabs .tabs-items {
+  background-color: pink;
+}
 .tabs .tabs-items .tabs-item[data-tab='1'] {
   background-color: green;
 }
