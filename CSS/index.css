@@ -157,3 +157,15 @@ body {
 .tabs .tabs-links .tabs-link[data-tab='4'] {
   color: orange;
 }
+.tabs .tabs-items .tabs-item[data-tab='1'] {
+  background-color: green;
+}
+.tabs .tabs-items .tabs-item[data-tab='2'] {
+  background-color: blue;
+}
+.tabs .tabs-items .tabs-item[data-tab='3'] {
+  background-color: yellow;
+}
+.tabs .tabs-items .tabs-item[data-tab='4'] {
+  background-color: red;
+}
