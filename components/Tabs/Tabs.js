@@ -1,3 +1,9 @@
+// class Tabs {
+//   constructor(tabbies) {
+
+//   }
+// }
+
 
 class TabLink {
   constructor(element) {
