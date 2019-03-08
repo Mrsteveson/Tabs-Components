@@ -51,3 +51,65 @@ body {
 
 
 
+// Styling practice
+// Disco Animation of course.
+.disco {
+  .animation-strobe();
+}
+
+.animation-strobe () {
+  animation: disco 500ms infinite;
+
+  @keyframes disco {
+    0% { background: aqua; box-shadow: 0 0 -10px aqua; }
+    40% { background: magenta; box-shadow: 0 0 20px magenta; }
+    60% { background: blue; box-shadow: 0 0 20px blue; }
+    100% { background: red; box-shadow: 0 0 -10px red; }
+  }
+}
+
+// Attempt at individual tab stylings.
+
+.tabs {
+
+  .tabs-links{
+
+    .tabs-link[data-tab='1'] {
+      color: blue,
+    }
+
+    .tabs-link[data-tab='2'] {
+      color: yellow;
+    }
+    
+    .tabs-link[data-tab='3'] {
+      color: magenta;
+    }
+    
+    .tabs-link[data-tab='4'] {
+      color: orange;
+    }
+  }
+
+  .tabs-items {
+    background-color: pink;
+
+    .tabs-item[data-tab='1'] {
+      background-color:green;
+    }
+
+    .tabs-item[data-tab='2'] {
+      background-color:blue;
+    }
+
+    .tabs-item[data-tab='3'] {
+      background-color:yellow;
+    }
+
+    .tabs-item[data-tab='4'] {
+      background-color:red;
+    }
+
+  }
+
+}

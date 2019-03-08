@@ -124,3 +124,51 @@ body {
   padding-bottom: 10px;
   font-weight: bold;
 }
+.disco {
+  animation: disco 500ms infinite;
+}
+@keyframes disco {
+  0% {
+    background: aqua;
+    box-shadow: 0 0 -10px aqua;
+  }
+  40% {
+    background: magenta;
+    box-shadow: 0 0 20px magenta;
+  }
+  60% {
+    background: blue;
+    box-shadow: 0 0 20px blue;
+  }
+  100% {
+    background: red;
+    box-shadow: 0 0 -10px red;
+  }
+}
+.tabs .tabs-links .tabs-link[data-tab='1'] {
+  color: blue;
+}
+.tabs .tabs-links .tabs-link[data-tab='2'] {
+  color: yellow;
+}
+.tabs .tabs-links .tabs-link[data-tab='3'] {
+  color: magenta;
+}
+.tabs .tabs-links .tabs-link[data-tab='4'] {
+  color: orange;
+}
+.tabs .tabs-items {
+  background-color: pink;
+}
+.tabs .tabs-items .tabs-item[data-tab='1'] {
+  background-color: green;
+}
+.tabs .tabs-items .tabs-item[data-tab='2'] {
+  background-color: blue;
+}
+.tabs .tabs-items .tabs-item[data-tab='3'] {
+  background-color: yellow;
+}
+.tabs .tabs-items .tabs-item[data-tab='4'] {
+  background-color: red;
+}
